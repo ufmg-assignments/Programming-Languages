@@ -1,0 +1,1 @@
+fun multiPairs([],[]) = [] | multiPairs (h1::t1, h2::t2) = (h1*h2)::multiPairs(t1,t2);
